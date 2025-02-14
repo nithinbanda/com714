@@ -30,7 +30,7 @@ def grow(self) -> None:
 def move(self, distance:int) -> bool:
   potential_energy = self.energy - distance
   if (potential_energy >= Human.MOVE_ENERGY):
-   self.energy = potential_energy
+   self.energy = potential_energygi
    return True
   else:
    return False
