@@ -1,5 +1,5 @@
 import unittest
-from human import Human
+from week3.human import Human
 
 class TestHuman(unittest.TestCase):
 
